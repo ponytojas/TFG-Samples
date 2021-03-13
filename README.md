@@ -6,7 +6,7 @@ This is a simple repository to save and deploy my Final Degree Project (TFG in S
 You can see a live preview [in Netifly](https://tfg-samples.netlify.app/)
 
 
-## :hammer: Deploy
+## :hammer: Deploy
 
 If you want to deploy it locally you can do it by following this simple steps.
 

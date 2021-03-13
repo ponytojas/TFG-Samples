@@ -36,9 +36,9 @@
 
           <div class="flex flex-col h-full">
             <div class="flex flex-row">
-              <p class="text-4xl">Historia</p>
+              <p class="text-xl">Historia</p>
             </div>
-            <div class="flex flex-row mt-4">
+            <div class="flex flex-row">
               La cruza original fue entre un perro perdiguero de color amarillo,
               Nous, y una perra Tweed Water spaniel, Belle.6​ La raza de tweed
               water spaniel está extinta, pero en aquel entonces era común en
@@ -59,12 +59,11 @@
               mientras dura la cacería.
             </div>
           </div>
-          <hr class="mt-2 mb-4" />
           <div class="flex flex-col h-full">
             <div class="flex flex-row">
-              <p class="text-4xl">Apariencia general</p>
+              <p class="text-xl">Apariencia general</p>
             </div>
-            <div class="flex flex-row mt-4">
+            <div class="flex flex-row">
               Como su nombre lo indica, su pelaje vienen en tonalidades de oro
               claro y oscuro. Su manto se compone de dos tipos de pelo: una capa
               exterior de pelaje que es resistente al agua y ligeramente
@@ -77,13 +76,11 @@
               recupera una presa.
             </div>
           </div>
-
-          <hr class="mt-2 mb-4" />
           <div class="flex flex-col h-full">
             <div class="flex flex-row">
-              <p class="text-4xl">Cuidado</p>
+              <p class="text-xl">Cuidado</p>
             </div>
-            <div class="flex flex-row mt-4">
+            <div class="flex flex-row">
               Son perros activos, y requieren de una cantidad razonable de
               ejercicio cada día, aunque las necesidades de ejercicio pueden
               variar dependiendo del perro y su edad. Se le debe proporcionar
@@ -103,12 +100,11 @@
               infección de oído muy fácilmente.
             </div>
           </div>
-          <hr class="mt-2 mb-4" />
           <div class="flex flex-col h-full">
             <div class="flex flex-row">
-              <p class="text-4xl">Temperamento</p>
+              <p class="text-xl">Temperamento</p>
             </div>
-            <div class="flex flex-row mt-4">
+            <div class="flex flex-row">
               El temperamento del Golden Retriever es una característica
               distintiva de la raza, y se describe en la normativa racial como
               «amable, amigable y confiado,... ​Son buenas mascotas de familia,

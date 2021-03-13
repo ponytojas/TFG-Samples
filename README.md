@@ -2,6 +2,7 @@
 
 This is a simple repository to save and deploy my Final Degree Project (TFG in Spanish) samples.
 
+For now, only in spanish, sorry 
 
 You can see a live preview [in Netifly](https://tfg-samples.netlify.app/)
 

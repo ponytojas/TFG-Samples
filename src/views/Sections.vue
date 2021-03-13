@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col mt-5">
+  <div class="flex flex-col mt-5 w-full">
     <div class="flex items-center justify-center w-full mb-24">
       <label for="toogleA" class="flex items-center cursor-pointer">
         <div class="relative">

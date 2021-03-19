@@ -68,36 +68,36 @@
           >
             <div class="p-6">
               <div class="flex flex-row justify-between">
-                <div class="flex flex-col h-9 w-9 rounded bg-red-200"></div>
-                <div class="flex flex-col h-9 w-9 bg-red-200 justify-evenly">
+                <div class="flex flex-col h-9 w-9 rounded bg-green-200"></div>
+                <div class="flex flex-col h-9 w-9 bg-green-200 justify-evenly">
                   <div class="flex flex-row w-full h-2 bg-white"></div>
                   <div class="flex flex-row w-full h-2 bg-white"></div>
                 </div>
               </div>
               <div
-                class="flex flex-row mt-10 w-11/12 bg-red-200 h-6 rounded"
+                class="flex flex-row mt-10 w-11/12 bg-green-200 h-6 rounded"
               ></div>
               <div
-                class="flex flex-row mt-3 w-8/12 bg-red-200 h-5 rounded-lg"
+                class="flex flex-row mt-3 w-8/12 bg-green-200 h-5 rounded-lg"
               ></div>
               <div
-                class="flex flex-row mt-2 w-6/12 bg-red-200 h-8 rounded-2xl"
+                class="flex flex-row mt-2 w-6/12 bg-green-200 h-8 rounded-2xl"
               ></div>
               <div
-                class="flex flex-row mt-9 w-full bg-red-200 h-44 rounded"
+                class="flex flex-row mt-9 w-full bg-green-200 h-44 rounded"
               ></div>
               <div class="flex flex-row mt-6">
                 <div
-                  class="flex flex-col flex-1 mr-3 h-20 rounded bg-red-200"
+                  class="flex flex-col flex-1 mr-3 h-20 rounded bg-green-200"
                 ></div>
                 <div
-                  class="flex flex-col flex-1 ml-3 h-20 rounded bg-red-200"
+                  class="flex flex-col flex-1 ml-3 h-20 rounded bg-green-200"
                 ></div>
               </div>
             </div>
           </div>
           <p class="mt-2 text-lg font-light break-normal">
-            Los elementos que tienen más espacio alrededor obtienen la atención
+            Los elementos que tienen más espacio algreenedor obtienen la atención
             más rápido
           </p>
         </div>
@@ -145,7 +145,8 @@
             </div>
           </div>
           <p class="mt-2 text-lg font-light break-normal">
-            Al no haber espacio entre elementos es complicado saber a que pertenece cada uno.
+            Al no haber espacio entre elementos es complicado saber a que
+            pertenece cada uno.
           </p>
         </div>
         <div
@@ -158,21 +159,21 @@
             <div class="p-6">
               <div v-for="index in 4" :key="index">
                 <div
-                  class="flex flex-row w-full bg-red-200 h-28 rounded-lg"
-                  :class="index>1 ? 'mt-7' : 'mt-0'"
+                  class="flex flex-row w-full bg-green-200 h-28 rounded-lg"
+                  :class="index > 1 ? 'mt-7' : 'mt-0'"
                 ></div>
                 <div class="flex flex-row">
                   <div class="flex flex-col">
-                    <span class="material-icons text-red-200 text-5xl"
+                    <span class="material-icons text-green-200 text-5xl"
                       >account_circle</span
                     >
                   </div>
                   <div class="flex flex-col flex-1">
                     <div
-                      class="flex flex-row w-10/12 ml-2 mt-4 bg-red-200 h-2 rounded-lg"
+                      class="flex flex-row w-10/12 ml-2 mt-4 bg-green-200 h-2 rounded-lg"
                     ></div>
                     <div
-                      class="flex flex-row w-7/12 ml-2 mt-2 bg-red-200 h-2 rounded-lg"
+                      class="flex flex-row w-7/12 ml-2 mt-2 bg-green-200 h-2 rounded-lg"
                     ></div>
                   </div>
                 </div>
@@ -181,6 +182,208 @@
           </div>
           <p class="mt-2 text-lg font-light break-normal">
             Al estar separados, es fácil identificar cual pertenece a cada uno.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="z-20 self-center justify-center align-middle items-center w-11/12 2xl:w-6/12 my-12 py-12 px-12 card border-gray-200 border hover:border-0 rounded-md"
+    >
+      <p class="text-center text-5xl font-extralight">Legibilidad</p>
+      <div class="flex flex-row flex-wrap justify-evenly mt-6 mx-24">
+        <p class="text-justify text-gray-500 italic">
+          "Al presentar texto en el contenido, el espacio nos ayuda a que sea
+          más sencillo de leer"
+        </p>
+      </div>
+      <div class="flex flex-row flex-wrap justify-evenly mt-12">
+        <div
+          class="flex flex-col flex-1 content-center align-middle items-center justify-center mr-10"
+        >
+          <div
+            class="w-full mb-4 text-white rounded border card"
+            style="height: 34rem"
+          >
+            <div class="p-6">
+              <div class="flex flex-row">
+                <div class="flex flex-col">
+                  <span class="material-icons text-red-200 text-5xl"
+                    >account_circle</span
+                  >
+                </div>
+                <div class="flex flex-col flex-1">
+                  <div
+                    class="flex flex-row w-4/12 ml-2 mt-2 bg-red-200 h-2 rounded-lg"
+                  ></div>
+                  <div
+                    class="flex flex-row w-7/12 ml-2 mt-2 bg-red-200 h-2 rounded-lg"
+                  ></div>
+                </div>
+              </div>
+              <div
+                class="flex flex-row w-full mt-3 mb-3 bg-red-200 h-40 rounded-lg"
+              ></div>
+              <div class="flex flex-col flex-1">
+                <div
+                  class="flex flex-row w-8/12 ml-2 mt-2 bg-red-200 h-2 rounded-lg"
+                ></div>
+                <div
+                  class="flex flex-row w-10/12 ml-2 mt-2 bg-red-200 h-2 rounded-lg"
+                ></div>
+              </div>
+              <div class="flex flex-col flex-1">
+                <div
+                  class="flex flex-row w-9/12 ml-2 mt-2 bg-red-200 h-2 rounded-lg"
+                ></div>
+                <div
+                  class="flex flex-row w-6/12 ml-2 mt-2 bg-red-200 h-2 rounded-lg"
+                ></div>
+              </div>
+              <div class="flex flex-col flex-1">
+                <div
+                  class="flex flex-row w-10/12 ml-2 mt-2 bg-red-200 h-2 rounded-lg"
+                ></div>
+                <div
+                  class="flex flex-row w-11/12 ml-2 mt-2 bg-red-200 h-2 rounded-lg"
+                ></div>
+              </div>
+              <div class="flex flex-col flex-1">
+                <div
+                  class="flex flex-row w-10/12 ml-2 mt-2 bg-red-200 h-2 rounded-lg"
+                ></div>
+                <div
+                  class="flex flex-row w-11/12 ml-2 mt-2 bg-red-200 h-2 rounded-lg"
+                ></div>
+              </div>
+              <div class="flex flex-col flex-1">
+                <div
+                  class="flex flex-row w-9/12 ml-2 mt-2 bg-red-200 h-2 rounded-lg"
+                ></div>
+                <div
+                  class="flex flex-row w-4/12 ml-2 mt-2 bg-red-200 h-2 rounded-lg"
+                ></div>
+              </div>
+              <div class="flex flex-col flex-1">
+                <div
+                  class="flex flex-row w-8/12 ml-2 mt-2 bg-red-200 h-2 rounded-lg"
+                ></div>
+                <div
+                  class="flex flex-row w-9/12 ml-2 mt-2 bg-red-200 h-2 rounded-lg"
+                ></div>
+              </div>
+              <div class="flex flex-col flex-1">
+                <div
+                  class="flex flex-row w-10/12 ml-2 mt-2 bg-red-200 h-2 rounded-lg"
+                ></div>
+                <div
+                  class="flex flex-row w-11/12 ml-2 mt-2 bg-red-200 h-2 rounded-lg"
+                ></div>
+              </div>
+              <div class="flex flex-col flex-1">
+                <div
+                  class="flex flex-row w-10/12 ml-2 mt-2 bg-red-200 h-2 rounded-lg"
+                ></div>
+                <div
+                  class="flex flex-row w-8/12 ml-2 mt-2 bg-red-200 h-2 rounded-lg"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <p class="mt-2 text-lg font-light break-normal">
+            Si no existe espacio, es mucho más complejo seguir el hilo y
+            encontrar diferentes partes del contenido.
+          </p>
+        </div>
+        <div
+          class="flex flex-col flex-1 content-center align-middle items-center justify-center"
+        >
+          <div
+            class="w-full mb-4 text-white rounded border card"
+            style="height: 34rem"
+          >
+            <div class="p-6">
+              <div class="flex flex-row">
+                <div class="flex flex-col">
+                  <span class="material-icons text-green-200 text-5xl"
+                    >account_circle</span
+                  >
+                </div>
+                <div class="flex flex-col flex-1">
+                  <div
+                    class="flex flex-row w-4/12 ml-2 mt-2 bg-green-200 h-2 rounded-lg"
+                  ></div>
+                  <div
+                    class="flex flex-row w-7/12 ml-2 mt-2 bg-green-200 h-2 rounded-lg"
+                  ></div>
+                </div>
+              </div>
+              <div
+                class="flex flex-row w-full mt-3 mb-3 bg-green-200 h-40 rounded-lg"
+              ></div>
+              <div class="flex flex-col flex-1">
+                <div
+                  class="flex flex-row w-8/12 ml-2 mt-2 bg-green-200 h-2 rounded-lg"
+                ></div>
+                <div
+                  class="flex flex-row w-10/12 ml-2 mt-2 bg-green-200 h-2 rounded-lg"
+                ></div>
+              </div>
+              <div class="flex flex-col flex-1">
+                <div
+                  class="flex flex-row w-9/12 ml-2 mt-2 bg-green-200 h-2 rounded-lg"
+                ></div>
+                <div
+                  class="flex flex-row w-6/12 ml-2 mt-2 mb-4 bg-green-200 h-2 rounded-lg"
+                ></div>
+              </div>
+              <div class="flex flex-col flex-1">
+                <div
+                  class="flex flex-row w-10/12 ml-2 mt-2 bg-green-200 h-2 rounded-lg"
+                ></div>
+                <div
+                  class="flex flex-row w-11/12 ml-2 mt-2 bg-green-200 h-2 rounded-lg"
+                ></div>
+              </div>
+              <div class="flex flex-col flex-1">
+                <div
+                  class="flex flex-row w-10/12 ml-2 mt-2 bg-green-200 h-2 rounded-lg"
+                ></div>
+                <div
+                  class="flex flex-row w-11/12 ml-2 mt-2 bg-green-200 h-2 rounded-lg"
+                ></div>
+              </div>
+              <div class="flex flex-col flex-1">
+                <div
+                  class="flex flex-row w-9/12 ml-2 mt-2 bg-green-200 h-2 rounded-lg"
+                ></div>
+                <div
+                  class="flex flex-row w-4/12 mb-4 ml-2 mt-2 bg-green-200 h-2 rounded-lg"
+                ></div>
+              </div>
+              <div class="flex flex-col flex-1">
+                <div
+                  class="flex flex-row w-8/12 ml-2 mt-2 bg-green-200 h-2 rounded-lg"
+                ></div>
+                <div
+                  class="flex flex-row w-9/12 ml-2 mt-2 bg-green-200 h-2 rounded-lg"
+                ></div>
+              </div>
+              <div class="flex flex-col flex-1">
+                <div
+                  class="flex flex-row w-10/12 ml-2 mt-2 bg-green-200 h-2 rounded-lg"
+                ></div>
+                <div
+                  class="flex flex-row w-11/12 ml-2 mt-2 bg-green-200 h-2 rounded-lg"
+                ></div>
+                <div
+                  class="flex flex-row w-10/12 ml-2 mt-2 bg-green-200 h-2 rounded-lg"
+                ></div>
+              </div>
+            </div>
+          </div>
+          <p class="mt-2 text-lg font-light break-normal">
+            El uso del espacio permite agrupar contenido por secciones y generar
+            una jerarquía completa del texto.
           </p>
         </div>
       </div>

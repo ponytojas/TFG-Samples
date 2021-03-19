@@ -2,6 +2,7 @@ import { createWebHistory, createRouter } from "vue-router";
 import Home from "../views/Home.vue";
 import Buttons from "../views/Buttons.vue";
 import Sections from "../views/Sections.vue"
+import Spaces from "../views/Spaces.vue"
 
 const routes = [
   {
@@ -18,6 +19,11 @@ const routes = [
     path: "/sections",
     name: "Sections",
     component: Sections,
+  },
+  {
+    path: "/spaces",
+    name: "Spaces",
+    component: Spaces,
   },
 ];
 

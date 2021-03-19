@@ -2,6 +2,7 @@
   <div id="nav" class="flex flex-row justify-evenly mt-4 w-full flex-wrap">
     <router-link class="text-lg" to="/buttons">Botones</router-link>
     <router-link class="text-lg" to="/sections">Secciones</router-link>
+    <router-link class="text-lg" to="/spaces">Espacios</router-link>
   </div>
   <router-view />
 </template>

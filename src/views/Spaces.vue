@@ -84,9 +84,9 @@
                 class="flex flex-row mt-2 w-6/12 bg-red-200 h-8 rounded-2xl"
               ></div>
               <div
-                class="flex flex-row mt-10 w-full bg-red-200 h-44 rounded"
+                class="flex flex-row mt-9 w-full bg-red-200 h-44 rounded"
               ></div>
-              <div class="flex flex-row mt-3">
+              <div class="flex flex-row mt-6">
                 <div
                   class="flex flex-col flex-1 mr-3 h-20 rounded bg-red-200"
                 ></div>

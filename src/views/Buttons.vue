@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col mt-5">
     <div
-      class="z-20 self-center justify-center align-middle items-center w-11/12 md:w-6/12 my-12 py-12 px-12 card border-gray-200 border hover:border-0 rounded-md"
+      class="z-20 self-center justify-center align-middle items-center w-11/12 2xl:w-6/12 my-12 py-12 px-12 card border-gray-200 border hover:border-0 rounded-md"
     >
       <p class="text-center text-5xl font-extralight">Texto</p>
       <div class="flex flex-row flex-wrap justify-evenly mt-6 mx-24">
@@ -41,7 +41,7 @@
       </div>
     </div>
     <div
-      class="z-20 self-center justify-center align-middle items-center w-11/12 md:w-6/12 my-12 py-12 px-12 card border-gray-200 border hover:border-0 rounded-md"
+      class="z-20 self-center justify-center align-middle items-center w-11/12 2xl:w-6/12 my-12 py-12 px-12 card border-gray-200 border hover:border-0 rounded-md"
     >
       <p class="text-center text-5xl font-extralight">Color</p>
       <div class="flex flex-row flex-wrap justify-evenly mt-6 mx-24">
@@ -89,7 +89,7 @@
       </div>
     </div>
     <div
-      class="z-20 self-center justify-center align-middle items-center w-11/12 md:w-6/12 my-12 py-12 px-12 card border-gray-200 border hover:border-0 rounded-md"
+      class="z-20 self-center justify-center align-middle items-center w-11/12 2xl:w-6/12 my-12 py-12 px-12 card border-gray-200 border hover:border-0 rounded-md"
     >
       <p class="text-center text-5xl font-extralight">Forma</p>
       <div class="flex flex-row flex-wrap justify-evenly mt-6 mx-24">
@@ -135,7 +135,7 @@
       </div>
     </div>
     <div
-      class="z-20 self-center justify-center align-middle items-center w-11/12 md:w-6/12 my-12 py-12 px-12 card border-gray-200 border hover:border-0 rounded-md"
+      class="z-20 self-center justify-center align-middle items-center w-11/12 2xl:w-6/12 my-12 py-12 px-12 card border-gray-200 border hover:border-0 rounded-md"
     >
       <p class="text-center text-5xl font-extralight">Interacción</p>
       <div class="flex flex-row flex-wrap justify-evenly mt-6 mx-24">
@@ -181,7 +181,7 @@
       </div>
     </div>
     <div
-      class="z-20 self-center justify-center align-middle items-center w-11/12 md:w-6/12 my-12 py-12 px-12 card border-gray-200 border hover:border-0 rounded-md"
+      class="z-20 self-center justify-center align-middle items-center w-11/12 2xl:w-6/12 my-12 py-12 px-12 card border-gray-200 border hover:border-0 rounded-md"
     >
       <p class="text-center text-5xl font-extralight">Sombra</p>
       <div class="flex flex-row flex-wrap justify-evenly mt-6 mx-24">

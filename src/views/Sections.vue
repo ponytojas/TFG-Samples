@@ -21,7 +21,7 @@
     </div>
     <div class="flex flex-col items-center mb-20">
       <div
-        class="w-8/12 h-auto rounded section-content border"
+        class="w-11/12 lg:w-8/12 h-auto rounded section-content border"
         :class="!activeSections ? '' : 'hidden'"
       >
         <div class="flex flex-col w-full h-full py-6 px-8">
@@ -130,7 +130,7 @@
         </div>
       </div>
       <div
-        class="w-8/12 rounded section-content border"
+        class="w-11/12 lg:w-8/12 rounded section-content border"
         :class="activeSections ? '' : 'hidden'"
       >
         <div class="flex flex-col w-full h-full py-6 px-8">
@@ -142,9 +142,9 @@
             class="h-60 w-80 self-center rounded mt-2"
             src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Golden_Retriever_with_tennis_ball.jpg"
           />
-          <div class="grid grid-rows-2 grid-cols-4 grid-flow-col gap-5 mt-8">
-            <div class="row-span-3 border-2 rounded p-4 bg-gray-100">
-              <p class="text-4xl">Historia</p>
+          <div class="grid grid-rows-1 lg:grid-rows-2 grid-cols-2 lg:grid-cols-4 grid-flow-col gap-2 lg:gap-5 mt-8">
+            <div class="col-span-1 row-span-4 lg:row-span-3 border-2 rounded p-4 bg-gray-100">
+              <p class="text-xl lg:text-2xl 2xl:text-3xl">Historia</p>
               <hr class="mt-1 mb-2 border-green-500 w-10/12" />
               <p class="mt-2">
                 La cruza original fue entre un perro perdiguero de color
@@ -176,7 +176,7 @@
             </div>
 
             <div class="col-span-2 border-2 rounded p-4">
-              <p class="text-4xl">Cuidado</p>
+              <p class="text-xl lg:text-2xl 2xl:text-3xl">Cuidado</p>
               <hr class="mt-1 mb-2 border-blue-400 w-10/12" />
               <p class="mt-2">
                 Son perros activos, y requieren de una cantidad razonable de
@@ -206,7 +206,7 @@
               </p>
             </div>
             <div class="col-span-2 row-span-1 border-2 rounded p-4">
-              <p class="text-4xl">Apariencia general</p>
+              <p class="text-xl lg:text-2xl 2xl:text-3xl">Apariencia general</p>
               <hr class="mt-1 mb-2 border-pink-500 w-10/12" />
               <p class="mt-2">
                 Como su nombre lo indica, su pelaje vienen en tonalidades de oro
@@ -223,8 +223,8 @@
                 el campo, sobre todo cuando el perro recupera una presa.
               </p>
             </div>
-            <div class="row-span-3 border-2 rounded p-4">
-              <p class="text-4xl">Temperamento</p>
+            <div class="row-span-2 col-span-2 lg:row-span-3 border-2 rounded p-4">
+              <p class="text-xl lg:text-2xl 2xl:text-3xl">Temperamento</p>
               <hr class="mt-1 mb-2 border-yellow-400 w-10/12" />
               <p class="mt-2">
                 El temperamento del Golden Retriever es una característica

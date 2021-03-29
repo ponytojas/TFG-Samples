@@ -1,17 +1,17 @@
 <template>
   <div class="flex flex-col mt-5">
     <div
-      class="z-20 self-center justify-center align-middle items-center w-11/12 2xl:w-6/12 my-12 py-12 px-12 card border-gray-200 border hover:border-0 rounded-md"
+      class="z-20 self-center justify-center align-middle items-center w-11/12 2xl:w-6/12 my-12 py-8 px-8 md:py-12 md:px-12 card border-gray-200 border hover:border-0 rounded-md"
     >
       <p class="text-center text-5xl font-extralight">Jerarquía</p>
-      <div class="flex flex-row flex-wrap justify-evenly mt-6 mx-24">
-        <p class="text-justify text-gray-500 italic">
+      <div class="flex flex-row flex-wrap justify-evenly mt-6 md:mx-24">
+        <p class="text-center text-gray-500 italic w-full">
           "El espacio permite generar jerarquía en los elementos"
         </p>
       </div>
       <div class="flex flex-row flex-wrap justify-evenly mt-12">
         <div
-          class="flex flex-col flex-1 content-center align-middle items-center justify-center mr-10"
+          class="flex flex-col w-full md:w-6/12 content-center align-middle items-center justify-center md:mr-10"
         >
           <div
             class="w-full mb-4 text-white rounded border card"
@@ -55,7 +55,9 @@
               </div>
             </div>
           </div>
-          <p class="mt-2 text-lg font-light break-normal">
+          <p
+            class="mt-0 px-1 lg:px-0 lg:mt-2 text-lg font-light break-normal mb-10 lg:mb-0 text-center lg:text-left"
+          >
             Si no existen espacios, el contenido se ve saturado
           </p>
         </div>
@@ -96,26 +98,28 @@
               </div>
             </div>
           </div>
-          <p class="mt-2 text-lg font-light break-normal">
-            Los elementos que tienen más espacio algreenedor obtienen la atención
-            más rápido
+          <p
+            class="mt-0 px-1 lg:px-0 lg:mt-2 text-lg font-light break-normal mb-4 lg:mb-0 text-center lg:text-left"
+          >
+            Los elementos que tienen más espacio algreenedor obtienen la
+            atención más rápido
           </p>
         </div>
       </div>
     </div>
     <div
-      class="z-20 self-center justify-center align-middle items-center w-11/12 2xl:w-6/12 my-12 py-12 px-12 card border-gray-200 border hover:border-0 rounded-md"
+      class="z-20 self-center justify-center align-middle items-center w-11/12 2xl:w-6/12 my-12 py-8 px-8 md:py-12 md:px-12 card border-gray-200 border hover:border-0 rounded-md"
     >
       <p class="text-center text-5xl font-extralight">Clarificar</p>
-      <div class="flex flex-row flex-wrap justify-evenly mt-6 mx-24">
-        <p class="text-justify text-gray-500 italic">
+      <div class="flex flex-row flex-wrap justify-evenly mt-6 md:mx-24">
+        <p class="text-center text-gray-500 italic w-full">
           "Añadir espacios permite que el contenido sea más claro y fácil de
           comprender"
         </p>
       </div>
       <div class="flex flex-row flex-wrap justify-evenly mt-12">
         <div
-          class="flex flex-col flex-1 content-center align-middle items-center justify-center mr-10"
+          class="flex flex-col w-full md:w-6/12 content-center align-middle items-center justify-center md:mr-10"
         >
           <div
             class="w-full mb-4 text-white rounded border card"
@@ -144,7 +148,9 @@
               </div>
             </div>
           </div>
-          <p class="mt-2 text-lg font-light break-normal">
+          <p
+            class="mt-0 px-1 lg:px-0 lg:mt-2 text-lg font-light break-normal mb-10 lg:mb-0 text-center lg:text-left"
+          >
             Al no haber espacio entre elementos es complicado saber a que
             pertenece cada uno.
           </p>
@@ -180,25 +186,27 @@
               </div>
             </div>
           </div>
-          <p class="mt-2 text-lg font-light break-normal">
+          <p
+            class="mt-0 px-1 lg:px-0 lg:mt-2 text-lg font-light break-normal mb-4 lg:mb-0 text-center lg:text-left"
+          >
             Al estar separados, es fácil identificar cual pertenece a cada uno.
           </p>
         </div>
       </div>
     </div>
     <div
-      class="z-20 self-center justify-center align-middle items-center w-11/12 2xl:w-6/12 my-12 py-12 px-12 card border-gray-200 border hover:border-0 rounded-md"
+      class="z-20 self-center justify-center align-middle items-center w-11/12 2xl:w-6/12 my-12 py-8 px-8 md:py-12 md:px-12 card border-gray-200 border hover:border-0 rounded-md"
     >
       <p class="text-center text-5xl font-extralight">Legibilidad</p>
-      <div class="flex flex-row flex-wrap justify-evenly mt-6 mx-24">
-        <p class="text-justify text-gray-500 italic">
+      <div class="flex flex-row flex-wrap justify-evenly mt-6 md:mx-24">
+        <p class="text-center text-gray-500 italic w-full">
           "Al presentar texto en el contenido, el espacio nos ayuda a que sea
           más sencillo de leer"
         </p>
       </div>
       <div class="flex flex-row flex-wrap justify-evenly mt-12">
         <div
-          class="flex flex-col flex-1 content-center align-middle items-center justify-center mr-10"
+          class="flex flex-col w-full md:w-6/12 content-center align-middle items-center justify-center md:mr-10"
         >
           <div
             class="w-full mb-4 text-white rounded border card"
@@ -289,7 +297,9 @@
               </div>
             </div>
           </div>
-          <p class="mt-2 text-lg font-light break-normal">
+          <p
+            class="mt-0 px-1 lg:px-0 lg:mt-2 text-lg font-light break-normal mb-10 lg:mb-0 text-center lg:text-left"
+          >
             Si no existe espacio, es mucho más complejo seguir el hilo y
             encontrar diferentes partes del contenido.
           </p>
@@ -381,7 +391,9 @@
               </div>
             </div>
           </div>
-          <p class="mt-2 text-lg font-light break-normal">
+          <p
+            class="mt-0 px-1 lg:px-0 lg:mt-2 text-lg font-light break-normal mb-4 lg:mb-0 text-center lg:text-left"
+          >
             El uso del espacio permite agrupar contenido por secciones y generar
             una jerarquía completa del texto.
           </p>

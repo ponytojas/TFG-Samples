@@ -3,6 +3,7 @@ import Home from "../views/Home.vue";
 import Buttons from "../views/Buttons.vue";
 import Sections from "../views/Sections.vue"
 import Spaces from "../views/Spaces.vue"
+import Hierarchy from "../views/Hierarchy.vue"
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     path: "/spaces",
     name: "Spaces",
     component: Spaces,
+  },
+  {
+    path: "/hierarchy",
+    name: "Hierarchy",
+    component: Hierarchy,
   },
 ];
 

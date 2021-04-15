@@ -42,7 +42,7 @@
                 <div class="flex flex-col w-full h-full">
                   <div class="flex flex-row w-full h-full">
                     <div class="flex flex-col w-6/12 h-full">
-                      <div class="flex flex-row h-full w-full">
+                      <div class="flex flex-row h-11/12 w-full">
                         <div class="pt-3 pl-3">
                           <p class="text-base">
                             <span class="text-lg">600€/mes</span>
@@ -105,7 +105,7 @@
                 <div class="flex flex-col w-full h-full">
                   <div class="flex flex-row w-full h-full">
                     <div class="flex flex-col w-6/12 h-full">
-                      <div class="flex flex-row h-full w-full">
+                      <div class="flex flex-row h-11/12 w-full">
                         <div class="pt-3 pl-3">
                           <p class="text-base">
                             <span class="text-lg font-bold text-gray-800"

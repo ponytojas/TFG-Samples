@@ -4,6 +4,7 @@ import Buttons from "../views/Buttons.vue";
 import Sections from "../views/Sections.vue"
 import Spaces from "../views/Spaces.vue"
 import Hierarchy from "../views/Hierarchy.vue"
+import Relevance from "../views/Relevance.vue"
 
 const routes = [
   {
@@ -30,6 +31,11 @@ const routes = [
     path: "/hierarchy",
     name: "Hierarchy",
     component: Hierarchy,
+  },
+  {
+    path: "/relevance",
+    name: "Relevance",
+    component: Relevance,
   },
 ];
 

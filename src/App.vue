@@ -4,6 +4,7 @@
     <router-link class="text-lg" to="/sections">Secciones</router-link>
     <router-link class="text-lg" to="/spaces">Espacios</router-link>
     <router-link class="text-lg" to="/hierarchy">Jerarquía</router-link>
+    <router-link class="text-lg" to="/relevance">Relevancia</router-link>
   </div>
   <router-view />
 </template>

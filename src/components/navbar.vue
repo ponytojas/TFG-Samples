@@ -4,8 +4,8 @@
   >
     <div class="flex items-center justify-between">
       <div class="flex flex-row">
-        <img class="w-10" src="../assets/images/bank-logo.png" />
-        <span class="ml-2 text-xl my-auto">Empresa </span>
+        <img class="w-10 h-10 my-auto" src="../assets/images/bank-logo.png" />
+        <span class="ml-2 text-xl pt-1 my-auto">Banco importante </span>
       </div>
       <div class="md:hidden">
         <button @click="showSideMenu = !showSideMenu">
@@ -25,13 +25,10 @@
       <div class="hidden md:block">
         <ul class="flex space-x-8 text-xl">
           <li>
-            <a to="projects">Projects</a>
+            <a to="projects">Contacto</a>
           </li>
           <li>
-            <a href="#">About me</a>
-          </li>
-          <li>
-            <a href="#">Other stuff</a>
+            <a href="#">Otros servicios</a>
           </li>
         </ul>
       </div>
@@ -65,18 +62,15 @@
           </div>
           <span class="flex w-full items-center p-4 border-b">
             <span class="text-gray-600 text-3xl text-center">
-              Daniel Villalobos</span
+              Banco importante</span
             ></span
           >
           <ul class="divide-y text-right">
             <li>
-              <a herf="#" class="my-4 text-xl inline-block">Projects</a>
+              <a herf="#" class="my-4 text-xl inline-block">Contacto</a>
             </li>
             <li>
-              <a href="#" class="my-4 text-xl inline-block">About me</a>
-            </li>
-            <li>
-              <a href="#" class="my-4 text-xl inline-block">Other stuff</a>
+              <a href="#" class="my-4 text-xl inline-block">Otros servicios</a>
             </li>
             <li></li>
           </ul>

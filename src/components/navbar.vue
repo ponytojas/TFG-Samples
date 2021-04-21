@@ -3,7 +3,7 @@
     class="md:relative bg-white md:bg-transparent shadow-md md:shadow-none z-50 mt-1 p-6 w-full"
   >
     <div class="flex items-center justify-between">
-      <div class="flex flex-row">
+      <div class="flex flex-row cursor-pointer">
         <img class="w-10 h-10 my-auto" src="../assets/images/bank-logo.png" />
         <span class="ml-2 text-xl pt-1 my-auto">Banco importante </span>
       </div>
@@ -25,10 +25,10 @@
       <div class="hidden md:block">
         <ul class="flex space-x-8 text-xl">
           <li>
-            <a to="projects">Contacto</a>
+            <a to="#" class="cursor-pointer">Contacto</a>
           </li>
           <li>
-            <a href="#">Otros servicios</a>
+            <a href="#" class="cursor-pointer">Otros servicios</a>
           </li>
         </ul>
       </div>
@@ -67,10 +67,10 @@
           >
           <ul class="divide-y text-right">
             <li>
-              <a herf="#" class="my-4 text-xl inline-block">Contacto</a>
+              <a herf="#" class="my-4 text-xl inline-block cursor-pointer">Contacto</a>
             </li>
             <li>
-              <a href="#" class="my-4 text-xl inline-block">Otros servicios</a>
+              <a href="#" class="my-4 text-xl inline-block cursor-pointer">Otros servicios</a>
             </li>
             <li></li>
           </ul>

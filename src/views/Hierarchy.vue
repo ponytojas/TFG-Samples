@@ -38,7 +38,7 @@
                   </div>
                 </div>
               </div>
-              <div class="flex flex-row h-full w-full bg-gray-50">
+              <div class="flex flex-row h-full w-full">
                 <div class="flex flex-col w-full h-full">
                   <div class="flex flex-row w-full h-full">
                     <div class="flex flex-col w-6/12 h-full">

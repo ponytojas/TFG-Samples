@@ -71,7 +71,7 @@
                         <p>{{ spending.place }}</p>
                       </div>
                     </div>
-                    <div class="flex flex-col w-1/2 text-2xl">
+                    <div class="flex flex-col w-1/2 text-2xl my-auto">
                       <p>{{ spending.price }}</p>
                     </div>
                   </div>
@@ -155,7 +155,7 @@
                         <p>{{ spending.place }}</p>
                       </div>
                     </div>
-                    <div class="flex flex-col w-1/2 text-2xl">
+                    <div class="flex flex-col w-1/2 text-2xl my-auto">
                       <p>{{ spending.price }}</p>
                     </div>
                   </div>

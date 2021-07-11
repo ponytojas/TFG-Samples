@@ -21,9 +21,127 @@
       "
     >
       <p class="text-center text-5xl font-extralight mb-10">
+        Saturación de colores
+      </p>
+      <div class="flex flex-row flex-wrap justify-evenly mt-6 md:mx-24">
+        <p class="text-justify text-gray-500 italic w-full">
+          "Existe mayor relación entre los colores que compartan saturación
+          aunque su matiz sea diferente que entre colores del mismo matiz pero
+          diferente saturación."
+        </p>
+      </div>
+      <div class="flex flex-row flex-wrap justify-evenly mt-12">
+        <div
+          class="
+            flex flex-col
+            w-full
+            mb-10
+            lg:mb-0
+            lg:w-2/4
+            content-center
+            items-center
+            px-2
+          "
+        >
+          <div
+            class="
+              flex flex-col
+              justify-center
+              space-between
+              rounded
+              border
+              w-full
+              h-auto
+              py-2
+            "
+          >
+            <p class="text-center text-4xl my-2" style="color: #00ff00">
+              Verde
+            </p>
+
+            <p class="text-center text-4xl my-2" style="color: #ff0000">Rojo</p>
+
+            <p class="text-center text-4xl my-2" style="color: #0000ff">Azul</p>
+          </div>
+          <p class="mt-6 text-lg font-light w-full text-center">
+            Los colores muy saturados generan una gran actividad fisicoquímica
+            que puede entenderse como nerviosismo, intranquilidad, estrés, ...
+          </p>
+        </div>
+
+        <div
+          class="
+            flex flex-col
+            w-full
+            mb-10
+            lg:mb-0
+            lg:w-2/4
+            content-center
+            items-center
+            px-2
+          "
+        >
+          <div
+            class="
+              flex flex-col
+              justify-center
+              space-between
+              rounded
+              border
+              w-full
+              h-auto
+              py-2
+            "
+          >
+            <p class="text-center text-4xl my-2" style="color: #55cc00">
+              Verde
+            </p>
+
+            <p class="text-center text-4xl my-2" style="color: #cc0055">Rojo</p>
+
+            <p class="text-center text-4xl my-2" style="color: #0055cc">Azul</p>
+          </div>
+          <p class="mt-6 text-lg font-light w-full text-center">
+            Los colores menos saturados por el contrario transmiten una mayor
+            sensación de calma y relajación
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="
+        z-20
+        self-center
+        justify-center
+        align-middle
+        items-center
+        w-11/12
+        2xl:w-6/12
+        my-12
+        py-8
+        px-8
+        md:py-12
+        md:px-12
+        card
+        border-gray-200 border
+        hover:border-0
+        rounded-md
+      "
+    >
+      <p class="text-center text-5xl font-extralight mb-10">
         Prioridad por colores
       </p>
-      <div class="flex items-center justify-center w-full mb-24"></div>
+      <div class="flex flex-row flex-wrap justify-evenly mt-6 md:mx-24">
+        <p class="text-justify text-gray-500 italic w-full">
+          "El color puede ser usado para diferenciar que acciones deben tener
+          mayor jerarquía por ser más comunes en el flujo de trabajo habitual de
+          la web, y que otras acciones representan excepciones que el usuario
+          deberá valorar antes de realizar. Enfatizando con el color el flujo
+          normal y desenfatizando el flujo excepcional se consigue jerarquizar
+          el contenido."
+        </p>
+      </div>
       <div class="flex flex-row flex-wrap justify-evenly mt-12">
         <div
           class="
@@ -146,112 +264,12 @@
         rounded-md
       "
     >
-      <p class="text-center text-5xl font-extralight mb-10">
-        Saturación de colores
-      </p>
-      <div class="flex items-center justify-center w-full mb-24"></div>
-      <div class="flex flex-row flex-wrap justify-evenly mt-12">
-        <div
-          class="
-            flex flex-col
-            w-full
-            mb-10
-            lg:mb-0
-            lg:w-2/4
-            content-center
-            items-center
-            px-2
-          "
-        >
-          <div
-            class="
-              flex flex-col
-              justify-center
-              space-between
-              rounded
-              border
-              w-full
-              h-auto
-              py-2
-            "
-          >
-            <p class="text-center text-4xl my-2" style="color: #00ff00">
-              Verde
-            </p>
-
-            <p class="text-center text-4xl my-2" style="color: #ff0000">Rojo</p>
-
-            <p class="text-center text-4xl my-2" style="color: #0000ff">Azul</p>
-          </div>
-          <p class="mt-6 text-lg font-light w-full text-center">
-            Los colores muy saturados generan una gran actividad fisicoquímica
-            que puede entenderse como nerviosismo, intranquilidad, estrés, ...
-          </p>
-        </div>
-
-        <div
-          class="
-            flex flex-col
-            w-full
-            mb-10
-            lg:mb-0
-            lg:w-2/4
-            content-center
-            items-center
-            px-2
-          "
-        >
-          <div
-            class="
-              flex flex-col
-              justify-center
-              space-between
-              rounded
-              border
-              w-full
-              h-auto
-              py-2
-            "
-          >
-            <p class="text-center text-4xl my-2" style="color: #55cc00">
-              Verde
-            </p>
-
-            <p class="text-center text-4xl my-2" style="color: #cc0055">Rojo</p>
-
-            <p class="text-center text-4xl my-2" style="color: #0055cc">Azul</p>
-          </div>
-          <p class="mt-6 text-lg font-light w-full text-center">
-            Los colores menos saturados por el contrario transmiten una mayor
-            sensación de calma y relajación
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <div
-      class="
-        z-20
-        self-center
-        justify-center
-        align-middle
-        items-center
-        w-11/12
-        2xl:w-6/12
-        my-12
-        py-8
-        px-8
-        md:py-12
-        md:px-12
-        card
-        border-gray-200
-        border
-        hover:border-0
-        rounded-md
-      "
-    >
       <p class="text-center text-5xl font-extralight mb-10">Ejemplos modales</p>
-      <div class="flex items-center justify-center w-full mb-24"></div>
+      <div class="flex flex-row flex-wrap justify-evenly mt-6 md:mx-24">
+        <p class="text-justify text-gray-500 italic w-full">
+          "Ejemplo completo de la explicación anterior"
+        </p>
+      </div>
       <div class="flex flex-row flex-wrap justify-evenly mt-12">
         <div
           class="
@@ -292,7 +310,11 @@
             >
               Mensaje con colores mal establecidos
             </button>
-            <Modal v-if="showModalWorst" @close="showModalWorst = false" :isBest="false">
+            <Modal
+              v-if="showModalWorst"
+              @close="showModalWorst = false"
+              :isBest="false"
+            >
             </Modal>
           </div>
           <p class="mt-6 text-lg font-light w-full text-center">
@@ -340,7 +362,11 @@
             >
               Mensaje con colores bien establecidos
             </button>
-            <Modal v-if="showModalBest" @close="showModalBest = false" :isBest="true">
+            <Modal
+              v-if="showModalBest"
+              @close="showModalBest = false"
+              :isBest="true"
+            >
             </Modal>
           </div>
           <p class="mt-6 text-lg font-light w-full text-center">

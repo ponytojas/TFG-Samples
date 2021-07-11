@@ -1,5 +1,16 @@
 <template>
-  <div id="nav" class="flex flex-row justify-evenly mt-4 px-4 w-full flex-wrap overflow-x-hidden">
+  <div
+    id="nav"
+    class="
+      flex flex-row
+      justify-evenly
+      mt-4
+      px-6
+      w-full
+      flex-wrap
+      overflow-x-hidden
+    "
+  >
     <router-link class="text-lg mx-2" to="/buttons">Botones</router-link>
     <span class="mint font-semibold">|</span>
     <router-link class="text-lg mx-2" to="/sections">Secciones</router-link>
@@ -11,6 +22,8 @@
     <router-link class="text-lg mx-2" to="/relevance">Relevancia</router-link>
     <span class="lavander font-semibold">|</span>
     <router-link class="text-lg mx-2" to="/shadows">Sombras</router-link>
+    <span class="marine font-semibold">|</span>
+    <router-link class="text-lg mx-2" to="/Colors">Colores</router-link>
   </div>
   <router-view />
 </template>
@@ -50,5 +63,9 @@
 
 .lavander {
   color: #e4d0ff;
+}
+
+.marine {
+  color: #1b97ad;
 }
 </style>

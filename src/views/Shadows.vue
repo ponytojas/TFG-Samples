@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col mb-10 items-center">
+  <div class="flex flex-col mt-5">
     <div
       class="z-20 self-center justify-center align-middle items-center w-11/12 2xl:w-6/12 my-12 py-8 px-8 md:py-12 md:px-12 card border-gray-200 border hover:border-0 rounded-md"
     >
@@ -51,6 +51,7 @@
         </div>
       </div>
     </div>
+    
   </div>
 </template>
 

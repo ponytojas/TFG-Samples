@@ -1,10 +1,29 @@
 <template>
-  <div id="nav" class="flex flex-row justify-evenly mt-4 w-full flex-wrap">
-    <router-link class="text-lg" to="/buttons">Botones</router-link>
-    <router-link class="text-lg" to="/sections">Secciones</router-link>
-    <router-link class="text-lg" to="/spaces">Espacios</router-link>
-    <router-link class="text-lg" to="/hierarchy">Jerarquía</router-link>
-    <router-link class="text-lg" to="/relevance">Relevancia</router-link>
+  <div
+    id="nav"
+    class="
+      flex flex-row
+      justify-evenly
+      mt-4
+      px-6
+      w-full
+      flex-wrap
+      overflow-x-hidden
+    "
+  >
+    <router-link class="text-lg mx-2" to="/buttons">Botones</router-link>
+    <span class="mint font-semibold">|</span>
+    <router-link class="text-lg mx-2" to="/sections">Secciones</router-link>
+    <span class="coral font-semibold">|</span>
+    <router-link class="text-lg mx-2" to="/spaces">Espacios</router-link>
+    <span class="yellow font-semibold">|</span>
+    <router-link class="text-lg mx-2" to="/hierarchy">Jerarquía</router-link>
+    <span class="tango font-semibold">|</span>
+    <router-link class="text-lg mx-2" to="/relevance">Relevancia</router-link>
+    <span class="lavander font-semibold">|</span>
+    <router-link class="text-lg mx-2" to="/shadows">Sombras</router-link>
+    <span class="marine font-semibold">|</span>
+    <router-link class="text-lg mx-2" to="/Colors">Colores</router-link>
   </div>
   <router-view />
 </template>
@@ -20,5 +39,33 @@
 }
 .card:hover {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.mint {
+  color: #90d8cc;
+}
+
+.paster-green {
+  color: #6ed477;
+}
+
+.coral {
+  color: #ff6d70;
+}
+
+.yellow {
+  color: #ffdb30;
+}
+
+.tango {
+  color: #f79f77;
+}
+
+.lavander {
+  color: #e4d0ff;
+}
+
+.marine {
+  color: #1b97ad;
 }
 </style>

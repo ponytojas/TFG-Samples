@@ -5,6 +5,8 @@ import Sections from "../views/Sections.vue"
 import Spaces from "../views/Spaces.vue"
 import Hierarchy from "../views/Hierarchy.vue"
 import Relevance from "../views/Relevance.vue"
+import Shadows from "../views/Shadows.vue"
+import Colors from "../views/Colors.vue"
 
 const routes = [
   {
@@ -36,6 +38,16 @@ const routes = [
     path: "/relevance",
     name: "Relevance",
     component: Relevance,
+  },
+  {
+    path: "/shadows",
+    name: "Shadows",
+    component: Shadows,
+  },
+  {
+    path: "/colors",
+    name: "Colors",
+    component: Colors,
   },
 ];
 

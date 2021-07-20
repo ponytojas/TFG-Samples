@@ -365,4 +365,7 @@
   border-radius: 50%;
   display: inline-block;
 }
+  .material-icons{
+    font-size: 1.25em !important;   
+  }
 </style>

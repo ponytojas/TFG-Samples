@@ -235,3 +235,9 @@ export default {
   },
 };
 </script>
+
+<style lang="css" scoped>
+  .material-icons{
+    font-size: 2.5em !important;   
+  }
+</style>

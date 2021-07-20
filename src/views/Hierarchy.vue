@@ -8,7 +8,7 @@
       </p>
       <div class="flex flex-col w-full flex-wrap items-center mt-12">
         <div class="flex flex-row mb-2">
-          <span class="material-icons text-red-500 text-5xl"
+          <span class="material-icons text-red-500"
             >sentiment_dissatisfied</span
           >
         </div>
@@ -309,3 +309,10 @@
     </div>
   </div>
 </template>
+
+
+<style lang="css" scoped>
+  .material-icons{
+    font-size: 2.5em !important;   
+  }
+</style>

@@ -23,7 +23,9 @@
     <span class="lavander font-semibold">|</span>
     <router-link class="text-lg mx-2" to="/shadows">Sombras</router-link>
     <span class="marine font-semibold">|</span>
-    <router-link class="text-lg mx-2" to="/Colors">Colores</router-link>
+    <router-link class="text-lg mx-2" to="/colors">Colores</router-link>
+    <span class="lime font-semibold">|</span>
+    <router-link class="text-lg mx-2" to="/text">Texto</router-link>
   </div>
   <router-view />
 </template>
@@ -67,5 +69,9 @@
 
 .marine {
   color: #1b97ad;
+}
+
+.lime {
+  color: #A5D620;
 }
 </style>

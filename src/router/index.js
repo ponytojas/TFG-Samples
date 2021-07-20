@@ -7,6 +7,7 @@ import Hierarchy from "../views/Hierarchy.vue"
 import Relevance from "../views/Relevance.vue"
 import Shadows from "../views/Shadows.vue"
 import Colors from "../views/Colors.vue"
+import Text from "../views/Text.vue";
 
 const routes = [
   {
@@ -48,6 +49,11 @@ const routes = [
     path: "/colors",
     name: "Colors",
     component: Colors,
+  },
+  {
+    path: "/text",
+    name: "Text",
+    component: Text,
   },
 ];
 

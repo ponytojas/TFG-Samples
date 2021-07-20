@@ -3,7 +3,7 @@
     <div
       class="z-20 self-center justify-center align-middle items-center w-11/12 2xl:w-6/12 my-12 py-8 px-8 md:py-12 md:px-12 card border-gray-200 border hover:border-0 rounded-md"
     >
-      <p class="text-center text-5xl font-extralight mb-10">(Des)Activado</p>
+      <p class="text-center text-5xl font-extralight mb-10"> <span class="line-through title-gradient-text">(Des)</span>Activado</p>
       <div class="flex items-center justify-center w-full mb-24">
         <label for="toogleA" class="flex items-center cursor-pointer">
           <div class="relative">
@@ -66,6 +66,13 @@ export default {
 </script>
 
 <style scoped>
+.title-gradient-text {
+  text-decoration: line-through;
+  background: linear-gradient(to right, #90D8CC, #6ED477, #009688);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .section-content {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   background-color: #fafafa;

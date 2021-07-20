@@ -192,6 +192,7 @@
           @close="showModalLittleShadow = false"
           :isBest="true"
           :show="showModalLittleShadow"
+          :isBigShadow="false"
         >
         </Modal>
         <div
@@ -220,9 +221,18 @@
               rounded
               hover:bg-blue-600
             "
+            @click="showModalBigShadow = true"
+
           >
             <p class="text-center w-full">Mucha Sombra</p>
           </div>
+          <Modal
+          @close="showModalBigShadow = false"
+          :isBest="true"
+          :show="showModalBigShadow"
+          :isBigShadow="true"
+        >
+        </Modal>
           <p class="mt-6 text-lg font-light w-8/12 text-center">
             La sombra facilita entender que se puede interactuar con el botón
           </p>

@@ -185,7 +185,7 @@
             <p class="text-center w-full">Poca sombra</p>
           </div>
           <p class="mt-6 text-lg font-light w-8/12 text-center">
-            El elemento sin sombra puede generar confusión
+            Una sombra pequeña dará sensación de estar cerca del resto del contenido
           </p>
         </div>
         <Modal
@@ -234,7 +234,7 @@
         >
         </Modal>
           <p class="mt-6 text-lg font-light w-8/12 text-center">
-            La sombra facilita entender que se puede interactuar con el botón
+            Cuanto mayor sea la sombra, mayor será la sensación de estar cerca del usuario
           </p>
         </div>
       </div>
@@ -264,6 +264,7 @@ export default {
   text-decoration: line-through;
   background: linear-gradient(to right, #90d8cc, #6ed477, #009688);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 

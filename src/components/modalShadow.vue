@@ -1,9 +1,9 @@
 <template>
   <transition name="fade">
     <div class="modal-mask" v-if="show">
-      <div class="modal-wrapper">
+      <div class="modal-wrapper" @click="$emit('close')">
         <div
-          class="modal-container rounded-md bg-gray-600 text-white"
+          class="modal-container rounded-md bg-gray-600 text-white z-50"
           :class="isBigShadow ? 'big-shadow' : 'low-shadow'"
         >
           <div class="modal-header mb-10" @click="$emit('close')">
